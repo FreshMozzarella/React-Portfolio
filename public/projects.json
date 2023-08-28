@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Project Slot Machine",
+      "live": "ADD HEROKU HERE",
+      "git": "https://github.com/FreshMozzarella/Project_Slot_Machine",
+      "image": "ADD PICTURE"
+    },
+    {
+      "name": "Explore EZ",
+      "live": "ADD HEROKU AGAIN",
+      "git": "http://www.github.com/username/reponame",
+      "image": "http://www.imgur.com/pictureofproject.png"
+    }
+  ]
