@@ -13,11 +13,11 @@
     * Node JS
 ---
 ## Acknowledgements
-    * Jean-Luc- helped me try to pursue things that I enjoy. Wouldn't be here if it wasn't for you. Miss you everyday. rip.
-    * Spencer - took the time to help answer all of my questions regarding linux and all troubleshooting when most of the time it was a simple Google search
-    * My instructors Josh and Brian- always willing to help explain things and break things up into manageable bits
-    * My friend Rob, who sparked my passion for coding and super helpful in the learning process and sharing his experiences with material. Always look to him for directions on what to do next
-    * My gecko, Rocky, for keeping me in check and reminding me of my responsibility [PHOTO OF GECKO] ()
+* Jean-Luc- helped me try to pursue things that I enjoy. Wouldn't be here if it wasn't for you. Miss you everyday. rip.
+* Spencer - took the time to help answer all of my questions regarding linux and all troubleshooting when most of the time it was a simple Google search
+* My instructors Josh and Brian- always willing to help explain things and break things up into manageable bits
+* My friend Rob, who sparked my passion for coding and super helpful in the learning process and sharing his experiences with material. Always look to him for directions on what to do next
+* My gecko, Rocky, for keeping me in check and reminding me of my responsibility [PHOTO OF GECKO] ()
 ---
 ## Reference for my inspiration/ sources
 
