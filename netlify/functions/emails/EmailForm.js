@@ -25,7 +25,7 @@ function EmailForm() {
                 body: JSON.stringify(emailData)
             });
             const data = await response.text();
-            console.log('the data: ',data); // "Email sent" or error message
+        // "Email sent" or error message
         } catch (error) {
             console.error('There was an error sending the email', error);
         }
