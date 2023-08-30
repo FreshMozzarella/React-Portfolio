@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import EmailForm from '../components/EmailForm'
 function About(props) {
     const [about, setAbout] = useState(null);
     const getAboutData = async () => {
@@ -14,6 +14,7 @@ function About(props) {
             <h3>{about.email}</h3>
             <h3>{about.bio}</h3>
             <img  className='headshot' src={about.headshot} alt="me"/>
+            <EmailForm />
         </div>
     );
 
