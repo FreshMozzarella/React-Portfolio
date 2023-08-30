@@ -13,6 +13,7 @@ function About(props) {
             <h2>{about.name}</h2>
             <h3>{about.email}</h3>
             <h3>{about.bio}</h3>
+            <img  className='headshot' src={about.headshot} alt="me"/>
         </div>
     );
 

@@ -10,16 +10,16 @@ function Header(props) {
     };
     return (
         <header>
-            <h1>My Portfolio Page</h1>
+            <h1 className='myName'>Alec Taylor</h1>
             <nav style={navStyle}>
                 <Link to='/'>
-                    <div>HOME</div>
+                    <div className='navtitle'>HOME</div>
                 </Link>
                 <Link to='/about'>
-                    <div>ABOUT</div>
+                    <div className='navtitle'>ABOUT</div>
                 </Link>
                 <Link to='/projects'>
-                    <div>PROJECTS</div>
+                    <div className='navtitle'>PROJECTS</div>
                 </Link>
             </nav>
         </header>

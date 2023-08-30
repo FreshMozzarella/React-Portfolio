@@ -6,12 +6,14 @@ function Projects(props) {
         const data = await response.json()
         setProjects(data)
     };
-    useEffect(() => getProjectData(), []);
+    useEffect(() => {getProjectData();
+        console.log("useEffect", useEffect)
+    }, []);
     const loaded = () => {
         return projects.map((project) => (
-            <div>
+            <div key={project.name}>
                 <h1>{project.name}</h1>
-                <img src={project.image} alt='description'/>
+                <img className='projectimage' src={project.image} alt='description'/>
                 <a href={project.git}>
                     <button>Github</button>
                 </a>
