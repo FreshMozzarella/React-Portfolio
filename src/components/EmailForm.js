@@ -8,10 +8,10 @@ function EmailForm() {
     const   sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(  process.env.REACT_APP_YOUR_SERVICE_ID,
-            process.env.REACT_APP_YOUR_TEMPLATE_ID,
+        emailjs.sendForm( `${process.env.REACT_APP_YOUR_SERVICE_ID}`,
+            `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`,
             form.current,
-            process.env.REACT_APP_YOUR_PUBLIC_KEY)
+            `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`)
           .then((result) => {
             console.log(process.env.REACT_APP_PUBLIC_KEY)
               console.log(result.text);
