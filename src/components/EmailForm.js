@@ -2,11 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 function EmailForm() {
-    const [emailData, setEmailData] = useState({
-        to: '',
-        subject: '',
-        text: ''
-    });
+
 
     const form = useRef()
     const   sendEmail = (e) => {
