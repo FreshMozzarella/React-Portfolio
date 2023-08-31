@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import EmailForm from '../../netlify/functions/emails/EmailForm'
+import EmailForm from '../components/EmailForm'
 function About(props) {
     const [about, setAbout] = useState(null);
     const getAboutData = async () => {
