@@ -13,10 +13,10 @@ function EmailForm() {
             form.current,
             `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`)
           .then((result) => {
-            console.log(process.env.REACT_APP_PUBLIC_KEY)
+            
               console.log(result.text);
           }, (error) => {
-            console.log(process.env.REACT_APP_PUBLIC_KEY)
+            
               console.log(error.text);
           });
           e.target.reset()
