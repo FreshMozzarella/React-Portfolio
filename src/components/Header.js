@@ -9,19 +9,21 @@ function Header(props) {
         margin: "auto",
     };
     return (
-        <header>
-            <h1 className='myName'>Alec Taylor</h1>
-            <nav style={navStyle}>
-                <Link to='/'>
-                    <div className='navtitle'>HOME</div>
-                </Link>
-                <Link to='/about'>
-                    <div className='navtitle'>ABOUT</div>
-                </Link>
-                <Link to='/projects'>
-                    <div className='navtitle'>PROJECTS</div>
-                </Link>
-            </nav>
+        <header className="py-3 header-container">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <h1 className='myName'>Alec Taylor</h1>
+                    </div>
+                    <div className="col align-self-center">
+                        <nav className="d-flex justify-content-around">
+                            <Link to='/' className="nav-link navtitle text">HOME</Link>
+                            <Link to='/about' className="nav-link navtitle text">ABOUT</Link>
+                            <Link to='/projects' className="nav-link navtitle text">PROJECTS</Link>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </header>
     );
 }

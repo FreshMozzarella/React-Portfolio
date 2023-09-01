@@ -22,37 +22,38 @@ function EmailForm() {
           e.target.reset()
     }
     return (
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className='form-group'>
             <input 
             name="user_name" 
             type='text' 
             placeholder="Full Name" 
-            
+            className='form-control'
             required 
             />
             <input 
             name="user_email" 
             type='email' 
             placeholder="email" 
-            
+            className='form-control'
             required 
             />
             <input 
             name="subject" 
             type='text' 
             placeholder="Subject" 
-            
+            className='form-control'
             required 
             />
             <textarea
             name='message'
             cols='30'
             rows='10'
+            className='form-control'
             >
 
             </textarea>
             <button 
-            type="submit">Send Email</button>
+            type="submit" className='text button'>Send Email</button>
         </form>
     );
 }
