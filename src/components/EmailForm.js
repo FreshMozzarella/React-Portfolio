@@ -53,7 +53,7 @@ function EmailForm() {
 
             </textarea>
             <button 
-            type="submit" className='text button'>Send Email</button>
+            type="submit" className='button'>Send Email</button>
         </form>
     );
 }

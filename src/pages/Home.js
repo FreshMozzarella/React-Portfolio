@@ -15,11 +15,10 @@ function Home(props) {
     ];
     // Experience in MongoDB, NodeJS, Express, Javascript, Django, React, Python, HTML, CSS
     return (
-        <Container>
-            <h1 className="text">Home</h1>
+        <Container className='main-container'>
             <h1 className="text">I Build Seamless Digital Experiences.</h1>
             <p>Fullstack developer with experience in creating scalable web applications. Let's bring your ideas to life!.</p>
-        <h2 className='text'>Experience</h2>
+        <h2 className='text'>Experience With</h2>
             <Row className="justify-content-md-center">
                 {frameworks.map((framework, index) => (
                     <Col xs={6} md={4} lg={3} key={index}>

@@ -9,7 +9,7 @@ function Header(props) {
         margin: "auto",
     };
     return (
-        <header className="py-3 header-container">
+        <header className="py-3 header-container mb-5">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">

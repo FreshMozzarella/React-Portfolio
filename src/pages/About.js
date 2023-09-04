@@ -10,11 +10,12 @@ function About(props) {
         setAbout(data);
     }
     useEffect(() => { getAboutData() }, []);
+
     function openResume() {
-        window.open('path_to_your_resume.pdf', '_blank');
+        window.open('Sanitized Resume.pdf', '_blank');
     }
     const loaded = () => (
-        <Container>
+        <Container className="main-container">
             <Row className="my-4">
                 <Col md={4}>
                     <img className='headshot img-fluid' src={about.headshot} alt="me"/>
@@ -25,7 +26,7 @@ function About(props) {
                         <p className="">For business inquiries, contact {about.email}</p>
                         <p className="">{about.bio}</p>
                     </article>
-                        <button className="text button" onClick={openResume}>Download Resume</button>  {/* Add a link to your resume here */}
+                        <button className="button" onClick={openResume}>Download Resume</button>  {/* Add a link to your resume here */}
                 </Col>
             </Row>
             <Row className="justify-content-center my-4">
