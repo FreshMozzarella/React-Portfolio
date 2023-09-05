@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import EmailForm from '../components/EmailForm';
-import { Container, Row, Col, Button } from 'react-bootstrap';  // <-- Import Bootstrap components
+import { Container, Row, Col } from 'react-bootstrap';  // <-- Import Bootstrap components
 
 function About(props) {
     const [about, setAbout] = useState(null);

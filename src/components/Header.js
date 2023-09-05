@@ -1,13 +1,6 @@
 import { Link } from 'react-router-dom'
 function Header(props) {
-    const navStyle = {
-        display: "flex",
-        justifyContent: "space-around",
-        borderBottom: ".2rem solid black",
-        padding: ".5rem",
-        width: "90%",
-        margin: "auto",
-    };
+
     return (
         <header className="py-3 header-container mb-5">
             <div className="container">
