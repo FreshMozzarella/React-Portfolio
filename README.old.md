@@ -2,7 +2,7 @@
 
 ### My name is Alec, and I like to figure out problems. I am a versatile and resourceful software engineer that loves anything outdoors! Interested in more about my story? Let's connect!
 ---
-### [Link to page]()
+### [Link to page](https://main--scintillating-starburst-67bbaa.netlify.app/)
 
 ### Technologies used
     * Bootstrap
