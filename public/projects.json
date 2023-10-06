@@ -7,8 +7,20 @@
     },
     {
       "name": "Explore EZ",
-      "live": "ADD HEROKU AGAIN",
-      "git": "http://www.github.com/username/reponame",
+      "live": "https://explorez-f516d70a2437.herokuapp.com/",
+      "git": "https://github.com/FreshMozzarella/ExploreEZ",
       "image": "/exlporeEz.png"
+    },
+    {
+      "name": "WardrobeWave",
+      "live": "https://illustrious-dango-1a23f8.netlify.app/",
+      "git": "https://github.com/FreshMozzarella/wardrobewave",
+      "image": "/FrontPage.png"
+    },
+    {
+      "name": "ExploreZion",
+      "live": "https://explorezion.netlify.app/",
+      "git": "https://github.com/FreshMozzarella/Project4",
+      "image": "/plainPage.png"
     }
   ]

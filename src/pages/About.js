@@ -12,7 +12,7 @@ function About(props) {
     useEffect(() => { getAboutData() }, []);
 
     function openResume() {
-        window.open('Sanitized Resume.pdf', '_blank');
+        window.open('SanitizedResume.pdf', '_blank');
     }
     const loaded = () => (
         <Container className="main-container">
